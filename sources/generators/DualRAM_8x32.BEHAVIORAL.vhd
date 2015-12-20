@@ -1,1 +1,1 @@
-/share/Projects/uSoC/design/synthesis/uSoCGenerators/DualRAM_8x32.vhd
+DualRAM_8x32.vhd

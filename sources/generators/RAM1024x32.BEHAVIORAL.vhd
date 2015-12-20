@@ -1,1 +1,1 @@
-/share/Projects/uSoC/design/synthesis/uSoCGenerators/RAM1024x32.vhd
+RAM1024x32.vhd

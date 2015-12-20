@@ -1,1 +1,1 @@
-/share/Projects/uSoC/design/synthesis/uSoCGenerators/ClockSynthesizer.vhd
+ClockSynthesizer.vhd
