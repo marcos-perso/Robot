@@ -20,9 +20,9 @@ SCRIPTS_DIR   = $(TOOL_DIR)/scripts
 TEST_DIR      = $(PRJ_DIR)/test/system/$(TEST_NAME)
 XILINXCORELIB_SRC_DIR = ../../../../libraries/xilinx/XilinxCoreLib
 XILINXUNISIM_SRC_DIR  = ../../../../libraries/xilinx/unisims
-XILINXSIMPRIM_SRC_DIR = /opt/Xilinx/10.1/ISE/vhdl/src/simprims
+XILINXSIMPRIM_SRC_DIR = /opt/Xilinx/14.7/ISE_DS/ISE/vhdl/src/simprims
 FMF_SRC_DIR   = ../../../../sources/models/s29gl032n
-SIMPRIM_DIR = /share/Projects/uSoC/libraries/xilinx/simprim
+SIMPRIM_DIR = ../../../../libraries/xilinx/simprim
 ZPU_TOOL_DIR = /share/Projects/uSoC/design/tools/toolchain/bin
 
 ##################

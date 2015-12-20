@@ -11,9 +11,9 @@ $(XILINXUNISIM_SRC_DIR)/unisim_VITAL.vhd
 
 XILINXSIMPRIM_SOURCES = \
 $(XILINXSIMPRIM_SRC_DIR)/simprim_Vpackage.vhd \
-$(XILINXSIMPRIM_SRC_DIR)/simprim_VITAL.vhd \
-$(XILINXSIMPRIM_SRC_DIR)/simprim_Vcomponents.vhd \
-$(XILINXSIMPRIM_SRC_DIR)/simprim_SMODEL.vhd
+#$(XILINXSIMPRIM_SRC_DIR)/simprim_VITAL.vhd \
+#$(XILINXSIMPRIM_SRC_DIR)/simprim_Vcomponents.vhd \
+#$(XILINXSIMPRIM_SRC_DIR)/simprim_SMODEL.vhd
 
 
 XILINXCORELIB_SOURCES = \
