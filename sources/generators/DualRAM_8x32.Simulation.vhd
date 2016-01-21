@@ -12,8 +12,8 @@ use work.UtilsPackage.all;
 architecture Simulation of DualRAM_8x32 is
 
 -- Read from an ASCII file
-constant content_file_in  : string := "/share/Projects/uSoC/design/test/system/test1/DualRAM_8x32.in";
-constant content_file_out  : string := "/share/Projects/uSoC/design/test/system/test1/DualRAM_8x32.out";
+constant content_file_in   : string := "/home/mmartinez/Projects/Robot/design/test/system/test1/DualRAM_8x32.in";
+constant content_file_out  : string := "/home/mmartinez/Projects/Robot/design/test/system/test1/DualRAM_8x32.out";
 
 
 --shared variable ram : ram_type_8x32;

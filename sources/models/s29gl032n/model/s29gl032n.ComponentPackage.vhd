@@ -146,9 +146,9 @@ component s29gl032n
         MsgOn               : BOOLEAN   := DefaultMsgOn;
         XOn                 : BOOLEAN   := DefaultXon;
         -- memory file to be loaded
-        mem_file_name       : STRING    := "none";--"s29gl032n.mem";
-        prot_file_name      : STRING    := "none";--"s29gl032n_prot.mem";
-        secsi_file_name     : STRING    := "none";--"s29gl032n_secsi.mem";
+        mem_file_name       : STRING    := "none1";--"s29gl032n.mem";
+        prot_file_name      : STRING    := "none2";--"s29gl032n_prot.mem";
+        secsi_file_name     : STRING    := "none3";--"s29gl032n_secsi.mem";
 
         UserPreload         : BOOLEAN   := FALSE;
         LongTimming         : BOOLEAN   := TRUE;

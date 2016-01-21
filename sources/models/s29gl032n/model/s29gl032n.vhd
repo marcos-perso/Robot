@@ -157,9 +157,9 @@ ENTITY s29gl032n IS
         MsgOn               : BOOLEAN   := DefaultMsgOn;
         XOn                 : BOOLEAN   := DefaultXon;
         -- memory file to be loaded
-        mem_file_name       : STRING    := "none1";--"s29gl032n.mem";
-        prot_file_name      : STRING    := "none2";--"s29gl032n_prot.mem";
-        secsi_file_name     : STRING    := "none3";--"s29gl032n_secsi.mem";
+        mem_file_name       : STRING    := "none";--"s29gl032n.mem";
+        prot_file_name      : STRING    := "none";--"s29gl032n_prot.mem";
+        secsi_file_name     : STRING    := "none";--"s29gl032n_secsi.mem";
 
         UserPreload         : BOOLEAN   := FALSE;
         LongTimming         : BOOLEAN   := TRUE;
@@ -3568,6 +3568,7 @@ signal            A_deb              :     std_logic_vector(HiAddrBit downto 0) 
 --   only first 1-3 columns are loaded. NO empty lines !!!!!!!!!!!!!!!!
 -------------------------------------------------------------------------------
             IF (SecSi_file_name /= "none" AND UserPreload ) THEN
+              assert false report "MMV: Opening file (SecSi) ..." severity warning;
                 SecSi := (OTHERS => MaxData);
                 ind := 0;
                 WHILE (not ENDFILE (SecSi_file)) LOOP
