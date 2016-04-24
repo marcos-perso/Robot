@@ -1,0 +1,14 @@
+\ --- Simulation executable files ---
+simulation1
+simulation2
+\ --- Intermediate compilation files ---
+*.bin
+*.elf
+\ --- Makefile intermediate files ---
+make.dep
+\ --- waveform ---
+*.ghw
+\ --- Memories ---
+ram.bin.hex
+rom.bin.hex
+rom.sim

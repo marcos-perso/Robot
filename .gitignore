@@ -1,0 +1,7 @@
+\ --- Compile files ---
+*.o
+\ --- Output files ---
+*.out
+\ --- Intermediate ghdl library files ---
+*.cf
+

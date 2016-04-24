@@ -23,7 +23,8 @@ XILINXUNISIM_SRC_DIR  = ../../../../libraries/xilinx/unisims
 XILINXSIMPRIM_SRC_DIR = /opt/Xilinx/14.7/ISE_DS/ISE/vhdl/src/simprims
 FMF_SRC_DIR   = ../../../../sources/models/s29gl032n
 SIMPRIM_DIR = ../../../../libraries/xilinx/simprim
-ZPU_TOOL_DIR = /share/Projects/uSoC/design/tools/toolchain/bin
+#ZPU_TOOL_DIR = /share/Projects/uSoC/design/tools/toolchain/bin
+ZPU_TOOL_DIR = ../../../../../Tools/zpugcc/toolchain/install/bin
 
 ##################
 ## PROJECT INFO ##
