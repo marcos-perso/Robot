@@ -13,16 +13,16 @@ TEST_NAME = test1
 ####################
 
 TB_DIR        = ./TB
-SOURCE_DIR    = ../../../../sources
+SOURCE_DIR    = ../../../../usoc-sources
 SYNTH_DIR     = ../../../../design/synthesis
 TOOL_DIR      = ../../../tools
 SCRIPTS_DIR   = $(TOOL_DIR)/scripts
 TEST_DIR      = $(PRJ_DIR)/test/system/$(TEST_NAME)
-XILINXCORELIB_SRC_DIR = ../../../../libraries/xilinx/XilinxCoreLib
-XILINXUNISIM_SRC_DIR  = ../../../../libraries/xilinx/unisims
+XILINXCORELIB_SRC_DIR = ../../../../usoc-libraries/xilinx/XilinxCoreLib
+XILINXUNISIM_SRC_DIR  = ../../../../usoc-libraries/xilinx/unisims
 XILINXSIMPRIM_SRC_DIR = /opt/Xilinx/14.7/ISE_DS/ISE/vhdl/src/simprims
-FMF_SRC_DIR   = ../../../../sources/models/s29gl032n
-SIMPRIM_DIR = ../../../../libraries/xilinx/simprim
+FMF_SRC_DIR   = ../../../../usoc-sources/models/s29gl032n
+SIMPRIM_DIR = ../../../../usoc-libraries/xilinx/simprim
 #ZPU_TOOL_DIR = /share/Projects/uSoC/design/tools/toolchain/bin
 ZPU_TOOL_DIR = ../../../../../Tools/zpugcc/toolchain/install/bin
 
