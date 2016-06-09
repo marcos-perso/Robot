@@ -1,0 +1,3 @@
+SerialCommTypes.o: sources/SerialCommTypes.c sources/SerialCommTypes.h
+MotionControlTypes.o: sources/MotionControlTypes.c \
+ sources/MotionControlTypes.h

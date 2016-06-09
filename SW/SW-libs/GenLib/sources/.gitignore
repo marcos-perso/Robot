@@ -1,0 +1,4 @@
+# --- TEMP EMACS FILES ---
+*.h\~
+*.c\~
+*.*#

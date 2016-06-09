@@ -1,0 +1,1 @@
+GenLib.o: sources/GenLib.c sources/GenLib.h

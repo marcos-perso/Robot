@@ -1,0 +1,1 @@
+ITC.o: sources/ITC.c sources/ITC.h

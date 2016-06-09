@@ -1,0 +1,7 @@
+SerialComm.o: sources/SerialComm.c sources/SerialComm.h cppfio/cppfio.h \
+ cppfio/cppfio_config.h cppfio/types.h cppfio/ptimer.h cppfio/chrono.h \
+ cppfio/helpers.h cppfio/excp.h cppfio/file.h cppfio/cmdline.h \
+ cppfio/errlog.h cppfio/communic.h cppfio/cserie.h \
+ /mnt/Projects/Robot/SW/lib/Ports.h /mnt/Projects/Robot/SW/lib/ITC.h \
+ /mnt/Projects/Robot/SW/lib/GenLib.h \
+ /mnt/Projects/Robot/SW/lib/SerialCommTypes.h

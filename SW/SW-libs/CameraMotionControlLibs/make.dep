@@ -1,0 +1,3 @@
+CameraMotionControlLibs.o: sources/CameraMotionControlLibs.c \
+ sources/CameraMotionControlLibs.h /mnt/Projects/Robot/SW/lib/GenLib.h \
+ /mnt/Projects/Robot/SW/lib/Ports.h /mnt/Projects/Robot/SW/lib/ITC.h
