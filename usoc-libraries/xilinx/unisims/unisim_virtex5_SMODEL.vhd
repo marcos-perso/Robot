@@ -66346,3 +66346,26 @@ begin
 
 
 end PPC440_V;
+gnalName  => "CLKB",
+        RefDelay       => 0 ps,
+        SetupHigh      => tsetup_DIB_CLKB_posedge_posedge(2),
+        SetupLow       => tsetup_DIB_CLKB_negedge_posedge(2),
+        HoldLow        => thold_DIB_CLKB_posedge_posedge(2),
+        HoldHigh       => thold_DIB_CLKB_negedge_posedge(2),
+        CheckEnabled   => (TO_X01(enb_ipd_sampled) = '1' and TO_X01(web_ipd_sampled) = '1'),
+        RefTransition  => 'R',
+        HeaderMsg      => "/RAMB16_S2_S36",
+        Xon            => Xon,
+        MsgOn          => MsgOn,
+        MsgSeverity    => warning);
+      VitalSetupHoldCheck (
+        Violation      => Tviol_DIB3_CLKB_posedge,
+        TimingData     => Tmkr_DIB3_CLKB_posedge,
+        TestSignal     => DIB_ipd(3),
+        TestSignalName => "DIB(3)",
+        TestDelay      => 0 ps,
+        RefSignal      => CLKB_ipd,
+        RefSignalName  => "CLKB",
+        RefDelay       => 0 ps,
+        SetupHigh      => tsetup_DIB_CLKB_posedge_posedge(3),
+        SetupLow       => tsetup_DIB_CLKB_negedge_pos
